@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen" />
-
 
 <head>
   <title>Banner EventProject</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/cosmo/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
 </head>
 
 <body>
@@ -12,6 +17,28 @@
     <br><br><br>
     <h1>This is the banner of EventProject</h1>
     <h3><a href="index.html">Retour vers l'index</a></h3>
+  </div>
+  <section class="jumbotron text-center big">
+    <div class="filter"> </div>
+    <div class="container">
+      <h1 class="jumbotron-heading">Discover, live, learn, have fun !</h1>
+      <p class="lead">Create your own event to share your lifestyle ! What do you want to do ?</p>
+      <p>
+        <p><a class="btn btn-primary btn-lg" href="<%=  new_event_path %>" role="button">Create event &raquo;</a></p>
+      </p>
+    </div>
+  </section>
+  <hr>
+  <section class="jumbotron text-center">
+    <div class="filter"> </div>
+    <div class="container">
+      <h1 class="jumbotron-heading">Discover, live, learn, have fun !</h1>
+      <p class="lead">Create your own event to share your lifestyle ! What do you want to do ?</p>
+      <p>
+        <p><a class="btn btn-primary btn-lg" href="<%=  new_event_path %>" role="button">Create event &raquo;</a></p>
+      </p>
+    </div>
+  </section>
 </body>
 
 </html>

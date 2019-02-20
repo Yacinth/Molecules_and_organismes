@@ -1,0 +1,143 @@
+nav.notConnected,
+nav.connected {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 50px;
+  background-color: #f8f8fa; }
+  nav.notConnected > div.left,
+  nav.connected > div.left {
+    display: flex;
+    align-items: center; }
+    nav.notConnected > div.left > a.logo > img,
+    nav.connected > div.left > a.logo > img {
+      width: 100px;
+      height: 20px;
+      margin-right: 20px; }
+    nav.notConnected > div.left > ul,
+    nav.connected > div.left > ul {
+      display: flex;
+      align-items: center;
+      padding-left: 0;
+      margin-bottom: 0; }
+      nav.notConnected > div.left > ul li,
+      nav.connected > div.left > ul li {
+        list-style: none; }
+        nav.notConnected > div.left > ul li:not(:last-child),
+        nav.connected > div.left > ul li:not(:last-child) {
+          margin-right: 20px; }
+        nav.notConnected > div.left > ul li > a,
+        nav.connected > div.left > ul li > a {
+          font-size: 18px;
+          line-height: 18px;
+          color: black; }
+  nav.notConnected > div.right a,
+  nav.connected > div.right a {
+    background-color: transparent !important;
+    border: none !important;
+    color: black !important; }
+    nav.notConnected > div.right a:focus,
+    nav.connected > div.right a:focus {
+      box-shadow: none !important; }
+
+form.signup,
+form.signin {
+  position: relative;
+  height: 100%;
+  max-width: 500px;
+  min-width: 400px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden; }
+  form.signup > h1,
+  form.signin > h1 {
+    text-align: center;
+    margin-bottom: 30px; }
+  form.signup > button.submit,
+  form.signin > button.submit {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 50px;
+  background-color: #34495e; }
+  footer > a {
+    color: white !important;
+    opacity: 0.8;
+    transition: opacity 200ms linear; }
+    footer > a:hover {
+      opacity: 1;
+      text-decoration: none; }
+
+section.jumbotron {
+  position: relative;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"); }
+  section.jumbotron.big {
+    height: 70vh; }
+  section.jumbotron > div.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+  section.jumbotron > div.container {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    top: 50%; }
+    section.jumbotron > div.container > h1,
+    section.jumbotron > div.container p {
+      color: white; }
+
+div.card.noborder {
+  border: 0; }
+
+div.card-body.user {
+  display: flex;
+  align-items: center; }
+  div.card-body.user > img {
+    margin-right: 15px; }
+  div.card-body.user div.info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: calc(100% - 55px); }
+    div.card-body.user div.info p.username {
+      margin-bottom: 0; }
+    div.card-body.user div.info p.description {
+      margin-bottom: 0; }
+    div.card-body.user div.info p.date {
+      position: absolute;
+      top: 0;
+      right: 0; }
+
+li.list-group-item {
+  padding: 0; }
+
+form.comment {
+  margin-top: 50px; }
+  form.comment > button {
+    margin-left: auto;
+    display: block;
+    margin-top: 15px; }
